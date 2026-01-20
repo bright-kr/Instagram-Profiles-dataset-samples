@@ -1,68 +1,68 @@
 # Instagram Profiles Dataset Sample
 
-<h2>A sample dataset of 1,556 records</h2>
+<h2>1,556개 레코드로 구성된 샘플 데이터셋</h2>
 
-<a href="https://brightdata.com">
+<a href="https://brightdata.co.kr">
     <img src="https://github.com/luminati-io/Instagram-Profiles-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
 </a>
 
-This **Instagram Profiles Dataset Sample** includes **1,556 records** and was extracted using the **Bright Data API**.
+이 **Instagram Profiles Dataset Sample**에는 **1,556개 레코드**가 포함되어 있으며, **Bright Data API**를 사용하여 추출되었습니다.
 
 ## Data Points
 
 | Field Name | Description |
 |------------|-------------|
-| `account` | The username of the Instagram account. |
-| `fbid` | The Facebook ID associated with the Instagram account. |
-| `id` | Unique identifier for the Instagram account. |
-| `followers` | The number of followers the account has. |
-| `posts_count` | Total number of posts made by the account. |
-| `is_business_account` | Indicates if the account is a business account. |
-| `is_professional_account` | Indicates if the account is a professional account. |
-| `is_verified` | Indicates if the account is verified by Instagram. |
-| `avg_engagement` | Average engagement rate of the account's posts. |
-| `external_url` | External URL linked in the account's bio. |
-| `biography` | The biography section of the account's profile. |
-| `business_category_name` | Name of the business category if the account is a business. |
-| `category_name` | General category name associated with the profile. |
-| `post_hashtags` | Hashtags used in the account's posts. |
-| `following` | Number of accounts the profile is following. |
-| `posts` | Details of posts made by the account. |
-| `profile_image_link` | URL link to the profile's image. |
-| `profile_url` | URL link to the Instagram profile. |
-| `profile_name` | Display name of the Instagram profile. |
-| `highlights_count` | Number of story highlights on the profile. |
-| `highlights` | Details of story highlights on the profile. |
-| `full_name` | Full name of the account holder. |
-| `is_private` | Indicates if the profile is private. |
-| `bio_hashtags` | Hashtags present in the profile's biography. |
-| `url` | URL in the biography section of the profile. |
-| `is_joined_recently` | Indicates if the account was created recently. |
-| `has_channel` | Indicates if the account has an IGTV channel. |
-| `partner_id` | ID associated with a business partner for the account. |
-| `business_address` | Business address if the account is a business. |
-| `related_accounts` | Accounts related or similar to the profile. |
-| `email_address` | Email address associated with the account. |
-| `external_url_title` | Title or description of the external URL. |
+| `account` | Instagram 계정의 사용자명입니다. |
+| `fbid` | Instagram 계정과 연결된 Facebook ID입니다. |
+| `id` | Instagram 계정의 고유 식별자입니다. |
+| `followers` | 해당 계정의 팔로워 수입니다. |
+| `posts_count` | 해당 계정이 게시한 총 게시물 수입니다. |
+| `is_business_account` | 해당 계정이 비즈니스 계정인지 여부를 나타냅니다. |
+| `is_professional_account` | 해당 계정이 프로페셔널 계정인지 여부를 나타냅니다. |
+| `is_verified` | 해당 계정이 Instagram에서 인증되었는지 여부를 나타냅니다. |
+| `avg_engagement` | 해당 계정 게시물의 평균 참여율입니다. |
+| `external_url` | 계정 프로필 소개(bio)에 연결된 외부 URL입니다. |
+| `biography` | 계정 프로필의 소개(bio) 섹션입니다. |
+| `business_category_name` | 계정이 비즈니스인 경우 비즈니스 카테고리 이름입니다. |
+| `category_name` | 프로필과 연관된 일반 카테고리 이름입니다. |
+| `post_hashtags` | 계정 게시물에 사용된 해시태그입니다. |
+| `following` | 프로필이 팔로우하는 계정 수입니다. |
+| `posts` | 계정이 게시한 게시물의 세부 정보입니다. |
+| `profile_image_link` | 프로필 이미지의 URL 링크입니다. |
+| `profile_url` | Instagram 프로필의 URL 링크입니다. |
+| `profile_name` | Instagram 프로필의 표시 이름입니다. |
+| `highlights_count` | 프로필의 스토리 하이라이트 수입니다. |
+| `highlights` | 프로필의 스토리 하이라이트 세부 정보입니다. |
+| `full_name` | 계정 소유자의 전체 이름입니다. |
+| `is_private` | 프로필이 비공개인지 여부를 나타냅니다. |
+| `bio_hashtags` | 프로필 소개(bio)에 포함된 해시태그입니다. |
+| `url` | 프로필 소개(bio) 섹션의 URL입니다. |
+| `is_joined_recently` | 계정이 최근에 생성되었는지 여부를 나타냅니다. |
+| `has_channel` | 계정에 IGTV 채널이 있는지 여부를 나타냅니다. |
+| `partner_id` | 계정의 비즈니스 파트너와 연관된 ID입니다. |
+| `business_address` | 계정이 비즈니스인 경우 비즈니스 주소입니다. |
+| `related_accounts` | 프로필과 관련되거나 유사한 계정입니다. |
+| `email_address` | 계정과 연결된 이메일 주소입니다. |
+| `external_url_title` | 외부 URL의 제목 또는 설명입니다. |
 
 
 ## Use Cases
 
 ### 1. Social Media Influencer Analysis
-Identify and analyze potential influencers by examining follower counts, engagement rates, and content categories.
+팔로워 수, 참여율, 콘텐츠 카테고리를 검토하여 잠재적 인플루언서를 식별하고 분석합니다.
 
 ### 2. Market Research and Trends
-Use profile data to track market trends, understand consumer behavior, and improve product positioning strategies.
+프로필 데이터를 사용하여 시장 트렌드를 추적하고, 소비자 행동을 이해하며, 제품 포지셔닝 전략을 개선합니다.
 
 ### 3. Competitor Benchmarking
-Benchmark competitors by analyzing their Instagram presence, content strategy, and audience engagement.
+Instagram 내 존재감, 콘텐츠 전략, 오디언스 참여도를 분석하여 경쟁사를 벤치마킹합니다.
 
 
 
 ## File Formats
 
-The dataset is available in multiple formats:
-- **CSV** (included in this sample)
+데이터셋은 여러 형식으로 제공됩니다:
+- **CSV**(이 샘플에 포함)
 - **JSON**
 - **NDJSON**
 - **JSON Lines**
@@ -82,8 +82,8 @@ The dataset is available in multiple formats:
 
 ## Update Frequency
 
-Datasets can be updated on various schedules:
-- **Once** (one-time delivery)
+데이터셋은 다양한 일정으로 업데이트할 수 있습니다:
+- **Once**(일회성 제공)
 - **Daily**
 - **Weekly**
 - **Monthly**
@@ -92,14 +92,14 @@ Datasets can be updated on various schedules:
 
 ## Data Enrichment
 
-Enhance your dataset with additional data points based on your specific requirements. Contact us for custom enrichment options.
+특정 요구사항에 따라 추가 데이터 포인트로 데이터셋을 강화할 수 있습니다. 맞춤형 enrichment 옵션은 당사에 문의해 주시기 바랍니다.
 
-**[Get the full Instagram Profiles dataset](https://brightdata.com/products/datasets/instagram)**
+**[Get the full Instagram Profiles dataset](https://brightdata.co.kr/products/datasets/instagram)**
 
 ---
 
 ## Free Access for Researchers and NGOs
 
-The Bright Initiative offers free access to **[Web Scraper APIs](https://brightdata.com/products/web-scraper)** and **[ready-to-use datasets](https://brightdata.com/products/datasets)** for academic researchers, NGOs, and NPOs working on environmental and social causes. 
+Bright Initiative는 환경 및 사회적 목적을 위해 활동하는 학술 연구자, NGO 및 NPO를 대상으로 **[Web Scraper APIs](https://brightdata.co.kr/products/web-scraper)**와 **[ready-to-use datasets](https://brightdata.co.kr/products/datasets)**에 대한 무료 액세스를 제공합니다. 
 
-Apply for free access at [brightinitiative.com](https://brightinitiative.com).
+무료 액세스 신청은 [brightinitiative.com](https://brightinitiative.com)에서 가능합니다.
